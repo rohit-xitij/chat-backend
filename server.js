@@ -16,7 +16,7 @@ const io = initializeSocket(server);
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://chat-frontend-eight-nu.vercel.app/login",
+    origin: "https://chat-frontend-eight-nu.vercel.app",
     credentials: true,
   }),
 );
