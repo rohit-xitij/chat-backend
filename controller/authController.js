@@ -28,6 +28,7 @@ export const register = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "none",
+      path: "/",
     });
     res.send({
       success: true,
@@ -65,6 +66,7 @@ export const login = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "none",
+      path: "/",
     });
     res.send({
       success: true,
